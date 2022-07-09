@@ -15,7 +15,7 @@
 }
 
 *::selection{
-  background: rgb(59, 56, 56);
+  background: rgba(8, 159, 185, 0.9);
   color:#fff;
 }
 
@@ -37,7 +37,7 @@ section{
 
 .heading span{
   font-size: 3.5rem;
-  background: rgba(0,0,0,.9);
+  background: rgba(8, 8, 8, 0.9);
   color:var(--primarycolor);
   border-radius: .5rem;
   padding:.2rem 1rem;
@@ -59,7 +59,7 @@ section{
 }
 
 .btn:hover{
-  background: rgb(59, 56, 56);
+  background: rgba(8, 159, 185, 0.9);
   color:var(--primarycolor);
 }
 
@@ -75,7 +75,7 @@ header{
 }
 
 header .logo{
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   font-weight: bolder;
   color:#fff;
   text-transform: uppercase;
@@ -92,7 +92,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-  color: rgb(59, 56, 56);
+  color: rgba(8, 159, 185, 0.9);
 }
 
 header .icons i{
@@ -103,7 +103,7 @@ header .icons i{
 }
 
 header .icons i:hover{
-  color: rgb(59, 56, 56);
+  color: rgba(8, 159, 185, 0.9);
 }
 
 header .search-bar-container{
@@ -139,7 +139,7 @@ header .search-bar-container label{
 }
 
 header .search-bar-container label:hover{
-  color: rgb(59, 56, 56);
+  color: rgba(8, 159, 185, 0.9);
 }
 
 .login-form-container{
@@ -185,7 +185,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form .box:focus{
-  border-color: rgb(59, 56, 56);
+  border-color: rgba(8, 159, 185, 0.9);
 }
 
 .login-form-container form #remember{
@@ -208,7 +208,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form p a{
-  color:var(--primarycolor);
+  color: purple;
 }
 
 .login-form-container form p a:hover{
@@ -588,7 +588,7 @@ header .search-bar-container label:hover{
 }
 
 .footer .box-container .box a:hover{
-  color:rgb(59, 56, 56);
+  color:rgba(8, 159, 185, 0.9);
   text-decoration: underline;
 }
 
@@ -664,6 +664,10 @@ header .search-bar-container label:hover{
     font-size: 50%;
   }
 
+  header{
+    font-size: 50%;
+  }
+
   .heading span{
     font-size: 2.5rem;
   }
@@ -673,3 +677,4 @@ header .search-bar-container label:hover{
   }
 
 }
+
